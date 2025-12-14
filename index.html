@@ -1,9 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website của tôi</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            max-width: 500px;
+        }
+        h1 { margin-bottom: 10px; font-size: 2.5em; }
+        p { font-size: 1.2em; line-height: 1.6; }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 25px;
+            background: white;
+            color: #764ba2;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+        .btn:hover { transform: scale(1.05); }
+    </style>
+</head>
 <body>
 
-<h1>Xin chào! Đây là website của tôi</h1>
-<p>Website này được chạy miễn phí trên GitHub Pages.</p>
+    <div class="container">
+        <h1>Xin Chào! 👋</h1>
+        <p>Mình là <b>[Tên Của Bạn]</b>.</p>
+        <p>Rất vui vì bạn đã ghé thăm website đầu tay của mình trên GitHub Pages.</p>
+        <a href="https://facebook.com" class="btn">Kết nối với mình</a>
+    </div>
 
 </body>
 </html>
